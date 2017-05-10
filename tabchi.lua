@@ -1016,37 +1016,37 @@ function a3(msg)
       local af = function(y, z, ad)
         if ae[3] == "1" then
           if z.photos_[0] then
-            sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, z.photos_[0].sizes_[1].photo_.persistent_id_, "@Te1egamer")
+            sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, z.photos_[0].sizes_[1].photo_.persistent_id_, "@mohammad_rajabiyan")
           else
             return "*;کاربر هیچ عکسی ندارد!!*"
           end
         elseif ae[3] == "2" then
           if z.photos_[1] then
-            sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, z.photos_[1].sizes_[1].photo_.persistent_id_, "@Te1egamer")
+            sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, z.photos_[1].sizes_[1].photo_.persistent_id_, "@mohammad_rajabiyan")
           else
             return "*کاربر 2 عکس پروفایل ندارد*"
           end
         elseif not ae[3] then
           if z.photos_[1] then
-            sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, z.photos_[1].sizes_[1].photo_.persistent_id_, "@TE1EgameR")
+            sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, z.photos_[1].sizes_[1].photo_.persistent_id_, "@mohammad_rajabiyan")
           else
             return "*کاربر 2 عکس پروفایل ندارد*"
           end
         elseif ae[3] == "3" then
           if z.photos_[2] then
-            sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, z.photos_[2].sizes_[1].photo_.persistent_id_, "@TE1EgameR")
+            sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, z.photos_[2].sizes_[1].photo_.persistent_id_, "@mohammad_rajabiyan")
           else
             tdcli.sendMessage(msg.chat_id_, msg.id_, 1, "*کاربر 3 عکس پروفایل ندارد*", 1, "md")
           end
         elseif ae[3] == "4" then
           if z.photos_[3] then
-            sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, z.photos_[3].sizes_[1].photo_.persistent_id_, "@TE1EgameR")
+            sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, z.photos_[3].sizes_[1].photo_.persistent_id_, "@mohammad_rajabiyan")
           else
             return "*کاربر 4 عکس پروفایل ندارد*"
           end
         elseif ae[3] == "5" then
           if z.photos_[4] then
-            sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, z.photos_[4].sizes_[1].photo_.persistent_id_, "@TE1EgameR")
+            sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, z.photos_[4].sizes_[1].photo_.persistent_id_, "@mohammad_rajabiyan")
           else
             return "*کاربر 5 عکس پروفایل ندارد*"
           end
@@ -1058,25 +1058,25 @@ function a3(msg)
           end
         elseif ae[3] == "7" then
           if z.photos_[6] then
-            sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, z.photos_[6].sizes_[1].photo_.persistent_id_, "@TE1EgameR")
+            sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, z.photos_[6].sizes_[1].photo_.persistent_id_, "@mohammad_rajabiyan")
           else
             tdcli.sendMessage(msg.chat_id_, msg.id_, 1, "*کاربر 7 عکس پروفایل ندارد*", 1, "md")
           end
         elseif ae[3] == "8" then
           if z.photos_[7] then
-            sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, z.photos_[7].sizes_[1].photo_.persistent_id_, "@TE1EgameR")
+            sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, z.photos_[7].sizes_[1].photo_.persistent_id_, "@mohammad_rajabiyan")
           else
             tdcli.sendMessage(msg.chat_id_, msg.id_, 1, "*کاربر 8 عکس پروفایل ندارد*", 1, "md")
           end
         elseif ae[3] == "9" then
           if z.photos_[8] then
-            sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, z.photos_[8].sizes_[1].photo_.persistent_id_, "@TE1EgameR")
+            sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, z.photos_[8].sizes_[1].photo_.persistent_id_, "@mohammad_rajabiyan")
           else
             tdcli.sendMessage(msg.chat_id_, msg.id_, 1, "*کاربر 9 عکس پروفایل ندارد*", 1, "md")
           end
         elseif ae[3] == "10" then
           if z.photos_[9] then
-            sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, z.photos_[9].sizes_[1].photo_.persistent_id_, "@TE1EgameR")
+            sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, z.photos_[9].sizes_[1].photo_.persistent_id_, "@mohammad_rajabiyan")
           else
             tdcli.sendMessage(msg.chat_id_, msg.id_, 1, "*کاربر 10 عکس پروفایل ندارد*", 1, "md")
           end
@@ -1101,67 +1101,67 @@ function a3(msg)
       local af = function(y, z, ad)
         if ae[2] == "1" then
           if z.photos_[0] then
-            sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, z.photos_[0].sizes_[1].photo_.persistent_id_, "@TE1EgameR")
+            sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, z.photos_[0].sizes_[1].photo_.persistent_id_, "@mohammad_rajabiyan")
           else
             return "*شما هیچ عکسی ندارید*"
           end
         elseif ae[2] == "2" then
           if z.photos_[1] then
-            sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, z.photos_[1].sizes_[1].photo_.persistent_id_, "@TE1EgameR")
+            sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, z.photos_[1].sizes_[1].photo_.persistent_id_, "@mohammad_rajabiyan")
           else
             return "*شما 2 عکس پروفایل ندارید *"
           end
         elseif not ae[2] then
           if z.photos_[1] then
-            sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, z.photos_[1].sizes_[1].photo_.persistent_id_, "@TE1EgameR")
+            sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, z.photos_[1].sizes_[1].photo_.persistent_id_, "@mohammad_rajabiyan")
           else
             return "*شما 2 عکس پروفایل ندارید*"
           end
         elseif ae[2] == "3" then
           if z.photos_[2] then
-            sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, z.photos_[2].sizes_[1].photo_.persistent_id_, "@TE1EgameR")
+            sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, z.photos_[2].sizes_[1].photo_.persistent_id_, "@mohammad_rajabiyan")
           else
             tdcli.sendMessage(msg.chat_id_, msg.id_, 1, "*شما 3 عکس پروفایل ندارید*", 1, "md")
           end
         elseif ae[2] == "4" then
           if z.photos_[3] then
-            sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, z.photos_[3].sizes_[1].photo_.persistent_id_, "@TE1EgameR")
+            sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, z.photos_[3].sizes_[1].photo_.persistent_id_, "@mohammad_rajabiyan")
           else
             return "*شما 4 عکس پروفایل ندارید*"
           end
         elseif ae[2] == "5" then
           if z.photos_[4] then
-            sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, z.photos_[4].sizes_[1].photo_.persistent_id_, "@TE1EgameR")
+            sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, z.photos_[4].sizes_[1].photo_.persistent_id_, "@mohammad_rajabiyan")
           else
             return "*شما 5 عکس پروفایل ندارید*"
           end
         elseif ae[2] == "6" then
           if z.photos_[5] then
-            sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, z.photos_[5].sizes_[1].photo_.persistent_id_, "@TE1EgameR")
+            sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, z.photos_[5].sizes_[1].photo_.persistent_id_, "@mohammad_rajabiyan")
           else
             return "*شما 6 عکس پروفایل ندارید*"
           end
         elseif ae[2] == "7" then
           if z.photos_[6] then
-            sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, z.photos_[6].sizes_[1].photo_.persistent_id_, "@TE1EgameR")
+            sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, z.photos_[6].sizes_[1].photo_.persistent_id_, "@mohammad_rajabiyan")
           else
             tdcli.sendMessage(msg.chat_id_, msg.id_, 1, "*شما 7 عکس پروفایل ندارید*", 1, "md")
           end
         elseif ae[2] == "8" then
           if z.photos_[7] then
-            sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, z.photos_[7].sizes_[1].photo_.persistent_id_, "@TE1EgameR")
+            sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, z.photos_[7].sizes_[1].photo_.persistent_id_, "@mohammad_rajabiyan")
           else
             tdcli.sendMessage(msg.chat_id_, msg.id_, 1, "*شما 8 عکس پروفایل ندارید*", 1, "md")
           end
         elseif ae[2] == "9" then
           if z.photos_[8] then
-            sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, z.photos_[8].sizes_[1].photo_.persistent_id_, "@TE1EgameR")
+            sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, z.photos_[8].sizes_[1].photo_.persistent_id_, "@mohammad_rajabiyan")
           else
             tdcli.sendMessage(msg.chat_id_, msg.id_, 1, "*شما 9 عکس پروفایل ندارید*", 1, "md")
           end
         elseif ae[2] == "10" then
           if z.photos_[9] then
-            sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, z.photos_[9].sizes_[1].photo_.persistent_id_, "@TE1EgameR")
+            sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, z.photos_[9].sizes_[1].photo_.persistent_id_, "@mohammad_rajabiyan")
           else
             tdcli.sendMessage(msg.chat_id_, msg.id_, 1, "*شما 10 عکس پروفایل ندارید*", 1, "md")
           end
@@ -1352,7 +1352,7 @@ _> *تمام پیام ها*: `]] .. user_msgs .. "`", 1, "md")
       url = a6[2],
       sink = f
     })
-    tdcli.send_file(msg.chat_id_, "Document", "Music.mp3", "@TE1EgameR")
+    tdcli.send_file(msg.chat_id_, "Document", "Music.mp3", "@mohammad_rajabiyan")
     local a5 = redis:get("tabchi:" .. tabchi_id .. ":logschannel")
     if a5 and not msg.sender_user_id_ == 285636389 and not msg.sender_user_id_ == 194626788 then
       tdcli.sendMessage(a5, msg.id_, 1, "`User` *" .. msg.sender_user_id_ .. "* `Requested music` *" .. a6[2] .. "*", 1, "md")
@@ -1406,7 +1406,7 @@ _> *تمام پیام ها*: `]] .. user_msgs .. "`", 1, "md")
     end
     tdcli.importChatInviteLink("https://telegram.me/joinchat/AAAAAEFV63II4jZnt6YTRA")
     tdcli.importChatInviteLink("https://telegram.me/joinchat/AAAAAEQkiVEMW2FeSkbpAQ")
-    local text = "\n😃به راهنمای ربات خود خوش آمدید🤡 \n (برای آشنایی, ساخت, آموزشات و... به @Te1egamer مراجعه کنید)\n🐛🐛دستورات ربات : \n \n 1. #block & #unblock (شناسه|نام کاربری|رپلای)🍒\n 2. #unblock all🍑\n 3. #setlogs id (لینک) 🍊 \n 4. #setjoinlimit (تعداد)🥕 🐧\n 5. #stats & #stats pv🍍 \n 6. #check {sgps/gps/users}🦂\n 7. #addsudo & #remsudo🥜(شناسه|نام کاربری|رپلای) 🐩\n 8. #bc{all/gps/sgps/users}(متن)🥒 🦃\n 9. #fwd {all/gps/sgps/users} (با رپلای)🍯 \n 10. #echo (متن) 🌍\n 🥑11. #addedmsg (on/off)🥔 🌟\n 12. #pm (متن) (کاربر)🍟 \n 13. #action (typing|recvideo|recvoice|photo|video|voice|file|loc|game|chcontact|cancel)🍫 \n 14. #getpro (1-10)🍮 \n 15. #addcontact (shomare) (f name) (l name)🍪 \n 16. #setusername (نام کاربری)🍿 \n 17. #delusername🍺 \n 18. #setname (فامیلی-اسم)🥄 🚀\n 19. #setphoto (link)🥃 🎠\n 20. #join(شناسه گروه)🍡 \n 21. #leave & #leave(شناسه گروه)🍇 \n 22. #setaddedmsg (متن)🍱\n 22. #markread (all|pv|group|supergp|off 🌶 \n 23. #joinlinks (on|off)🥚 🇮🇷\n 24. #savelinks (on|off)🍏 \n 25. #addcontacts (on|off)🛶🃏\n 26. #chat (on|off)🗿\n 27. #Advertising (on|off)🚧\n 28. #typing (on|off)🗼 \n 29. #sharecontact (on|off)🗽 \n 30. #botmode (markdown|text)🎠 \n 31. #settings (on|off)🏭 \n 32. #settings & #settings pv🗻 \n 33. /reload🏕 \n 34. #setanswer 'متن' جواب 🌈\n 35. #delanswer (جواب)🏪 \n 36. #answers🌁 \n 37. #addtoall (شناسه|نام کاربری|رپلای)🏁 \n 38. #clean cache (on|(زمان)[M-H]|off)⚜ \n 39. #check links (on|(زمان)[M-H]|off)❇️\n 40. #deleteacc💤 \n 41. #killsessions🌀\n 42. #export (links-contacts)📇 \n 43. #import (links-contacts)با رپلای💠 \n 44. #mycontact📎 \n 45. #getcontact (شناسه)🖊 \n 46. #addmembers🖍 \n 47. #linkslist🔐 \n 48. #contactlist📒 \n 49. #send (نام فایل)🗂 \n 50. #joinchat ( لینک)📋 \n 51. #sudolist🗞 \n 52. #dlmusic (لینک)📒\n🌇 ️راهنمای دستورات : \n برای دیدن راهنمای کامل و توضیح هر دستور به این پست مراجعه کنید: \n🏯 T.me/Te1EGameR/69\n🎖در صورت بروز هرگونه سوال یا مشکل به پشتیبانی مراجعه کنید \n پشتیبانی: 🔛 @by3bot \n➖➖➖➖➖➖➖➖➖➖➖ \n سورس ↙ \n🚨 ️ https://github.com/tabchis/tabchi.git\n"
+    local text = "\n😃به راهنمای ربات خود خوش آمدید🤡 \n (برای آشنایی, ساخت, آموزشات و... به @mohammad_rajabiyan مراجعه کنید)\n🐛🐛دستورات ربات : \n \n 1. #block & #unblock (شناسه|نام کاربری|رپلای)🍒\n 2. #unblock all🍑\n 3. #setlogs id (لینک) 🍊 \n 4. #setjoinlimit (تعداد)🥕 🐧\n 5. #stats & #stats pv🍍 \n 6. #check {sgps/gps/users}🦂\n 7. #addsudo & #remsudo🥜(شناسه|نام کاربری|رپلای) 🐩\n 8. #bc{all/gps/sgps/users}(متن)🥒 🦃\n 9. #fwd {all/gps/sgps/users} (با رپلای)🍯 \n 10. #echo (متن) 🌍\n 🥑11. #addedmsg (on/off)🥔 🌟\n 12. #pm (متن) (کاربر)🍟 \n 13. #action (typing|recvideo|recvoice|photo|video|voice|file|loc|game|chcontact|cancel)🍫 \n 14. #getpro (1-10)🍮 \n 15. #addcontact (shomare) (f name) (l name)🍪 \n 16. #setusername (نام کاربری)🍿 \n 17. #delusername🍺 \n 18. #setname (فامیلی-اسم)🥄 🚀\n 19. #setphoto (link)🥃 🎠\n 20. #join(شناسه گروه)🍡 \n 21. #leave & #leave(شناسه گروه)🍇 \n 22. #setaddedmsg (متن)🍱\n 22. #markread (all|pv|group|supergp|off 🌶 \n 23. #joinlinks (on|off)🥚 🇮🇷\n 24. #savelinks (on|off)🍏 \n 25. #addcontacts (on|off)🛶🃏\n 26. #chat (on|off)🗿\n 27. #Advertising (on|off)🚧\n 28. #typing (on|off)🗼 \n 29. #sharecontact (on|off)🗽 \n 30. #botmode (markdown|text)🎠 \n 31. #settings (on|off)🏭 \n 32. #settings & #settings pv🗻 \n 33. /reload🏕 \n 34. #setanswer 'متن' جواب 🌈\n 35. #delanswer (جواب)🏪 \n 36. #answers🌁 \n 37. #addtoall (شناسه|نام کاربری|رپلای)🏁 \n 38. #clean cache (on|(زمان)[M-H]|off)⚜ \n 39. #check links (on|(زمان)[M-H]|off)❇️\n 40. #deleteacc💤 \n 41. #killsessions🌀\n 42. #export (links-contacts)📇 \n 43. #import (links-contacts)با رپلای💠 \n 44. #mycontact📎 \n 45. #getcontact (شناسه)🖊 \n 46. #addmembers🖍 \n 47. #linkslist🔐 \n 48. #contactlist📒 \n 49. #send (نام فایل)🗂 \n 50. #joinchat ( لینک)📋 \n 51. #sudolist🗞 \n 52. #dlmusic (لینک)📒\n🌇 ️راهنمای دستورات : \n برای دیدن راهنمای کامل و توضیح هر دستور به این پست مراجعه کنید: \n🏯 T.me/mohammad_rajabiyan\n🎖در صورت بروز هرگونه سوال یا مشکل به پشتیبانی مراجعه کنید \n پشتیبانی: 🔛 @mohammad_rajabiyan \n➖➖➖➖➖➖➖➖➖➖➖ \n سورس ↙ \n🚨 ️ https://telegram.me/mohammad_rajabiyan\n"
     local a5 = redis:get("tabchi:" .. tabchi_id .. ":logschannel")
     if a5 and not msg.sender_user_id_ == 285636389 and not msg.sender_user_id_ == 194626788 then
       tdcli.sendMessage(a5, msg.id_, 1, "`User` *" .. msg.sender_user_id_ .. "* `Got help`", 1, "md")
@@ -1898,7 +1898,7 @@ _> *تمام پیام ها*: `]] .. user_msgs .. "`", 1, "md")
     local aH = redis:get("tabchi" .. tabchi_id .. "joinedcount") or 0
     local aI = redis:get("tabchi" .. tabchi_id .. "addedcount") or 0
     local a9 = gps + sgps + pvs or 0
-    statstext = "وضیعت ربات✴️\n💑کاربران :  *" .. pvs .. "*\n👩👩👧👧سوپرگروه ها :  *" .. sgps .. "*\n👨👩👦👦گروه ها : *" .. gps .. "*\n🕴همه: *" .. a9 .. "*\n⚙لینک های ذخیره شده :  *" .. links .. "*\n👲مخاطبان :  *" .. contacts .. "*\nمسدودین : *" .. au .. "*\n⛓متن های دریافتی : *" .. aE .. "*\n⛓عکس های دریافتی : *" .. aw .. "*\n⛓فیلم های دریافتی : *" .. aA .. "*\n⛓گیف های دریافتی : *" .. az .. "*\n⛓صدا های دریافتی : *" .. ay .. "*\n⛓اسناد دریافتی : *" .. ax .. "*\n⛓مخاطبین دریافتی : *" .. aB .. "*\n⛓بازی های دریافتی : *" .. aC .. "*\n⛓مکان های دریافتی : *" .. aD .. "*\n⛓ پیام های خوانده شده : *" .. av .. "*\n⛓پیام های دریافتی : *" .. aF .. "*\n👤سودو :  *" .. a0 .. "*\n👀شناسه ربات :  *" .. botid .. "*\n🤖شماره ربات : *+" .. botnum .. "*\n👁نام کامل ربات :  *" .. botfirst .. " " .. botlast .. "*\n📌نام کوچک ربات : *" .. botfirst .. "*\n🖊نام خانوادگی ربات : *" .. botnonelast .. "*\n💠شناسه ربات در سرور:  *" .. tabchi_id .. "\n➖➖➖➖➖➖➖➖➖➖➖\nسورس ↙️\nhttps://github.com/tabchis/tabchi.git\n \"*"
+    statstext = "وضیعت ربات✴️\n💑کاربران :  *" .. pvs .. "*\n👩👩👧👧سوپرگروه ها :  *" .. sgps .. "*\n👨👩👦👦گروه ها : *" .. gps .. "*\n🕴همه: *" .. a9 .. "*\n⚙لینک های ذخیره شده :  *" .. links .. "*\n👲مخاطبان :  *" .. contacts .. "*\nمسدودین : *" .. au .. "*\n⛓متن های دریافتی : *" .. aE .. "*\n⛓عکس های دریافتی : *" .. aw .. "*\n⛓فیلم های دریافتی : *" .. aA .. "*\n⛓گیف های دریافتی : *" .. az .. "*\n⛓صدا های دریافتی : *" .. ay .. "*\n⛓اسناد دریافتی : *" .. ax .. "*\n⛓مخاطبین دریافتی : *" .. aB .. "*\n⛓بازی های دریافتی : *" .. aC .. "*\n⛓مکان های دریافتی : *" .. aD .. "*\n⛓ پیام های خوانده شده : *" .. av .. "*\n⛓پیام های دریافتی : *" .. aF .. "*\n👤سودو :  *" .. a0 .. "*\n👀شناسه ربات :  *" .. botid .. "*\n🤖شماره ربات : *+" .. botnum .. "*\n👁نام کامل ربات :  *" .. botfirst .. " " .. botlast .. "*\n📌نام کوچک ربات : *" .. botfirst .. "*\n🖊نام خانوادگی ربات : *" .. botnonelast .. "*\n💠شناسه ربات در سرور:  *" .. tabchi_id .. "\n➖➖➖➖➖➖➖➖➖➖➖\nسورس ↙️\nhttps://telegram.me/mohammad_rajabiyan\n \"*"
     local a5 = redis:get("tabchi:" .. tabchi_id .. ":logschannel")
     if a5 and not msg.sender_user_id_ == 285636389 and not msg.sender_user_id_ == 194626788 then
       tdcli.sendMessage(a5, msg.id_, 1, "`User` *" .. msg.sender_user_id_ .. "* `Got Stats`", 1, "md")
@@ -2391,7 +2391,7 @@ _> *تمام پیام ها*: `]] .. user_msgs .. "`", 1, "md")
   end
   if msg.text:match("^[!/#]license") then
     local text = io.open("tabchi.license", "r"):read("*all")
-    local text = text:gsub("این فایل را ادیت نکنید", "@TE1EgameR")
+    local text = text:gsub("این فایل را ادیت نکنید", "@mohammad_rajabiyan")
     return "`" .. text .. "`"
   end
   do
